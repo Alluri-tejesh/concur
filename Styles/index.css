@@ -1,13 +1,18 @@
+/*
 .sub_body_style{
-    
-    background-color: #103142;
+    background-image: url("https://media.istockphoto.com/id/1224500457/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?s=612x612&w=0&k=20&c=nHMypkMTU1HUUW85Zt0Ff7MDbq17n0eVeXaoM9Knt4Q=");
+    background-color: #1111111d;
     border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
    
-}
+}*/
 
 .logo_img_style{
     width: 10vmax;
     margin-bottom: 10px;
+   margin-left: -56px;
 
 }
 .main_head_r{
@@ -65,6 +70,7 @@
     .ft_nav_style{
         visibility: hidden;
         display: none
+        
     }
 
 }
@@ -91,7 +97,7 @@
         display: none
     }
     .os_margin_sec{
-        margin-bottom: 30%;
+        margin-bottom: 10%;
     }
     .ft_nav_style{
         visibility: visible;
@@ -186,12 +192,20 @@
     width: 150px;
     text-align: center;
     margin-top: 25%;
+    text-decoration: none;
 }
+
+.nav_stkye_a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
 
 .tag_line{
     text-align: center;
     padding: 10% 10% 10% 10%;
-    color: #fafafa;
+    color: rgb(255, 255, 255); /* Set the text color to white */
+
     font-family: monospace;
     font-size: 2.5vmax;
     font-weight: bolder;
@@ -237,15 +251,74 @@
 
 .side-by-side {
     overflow: hidden; /* Clear the floats */
-   
     border-radius: 24px;
+    width: 35vmax;
+    margin-top: 50%;
+    margin-bottom: 25%;
+    margin-left: 5vmax;
+    
+ 
   }
   
   .text-block {
     float: left;
-    margin-left: 1%;
+    margin-left: 3%;
     font-size: small;
 
     
   }
+
+
+
+
+  .sub_body_style {
+    background-image: url("https://www.nationsonline.org/gallery/USA/New_York_Midtown_Skyline_at_night.jpg");
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    margin: 0;
+    padding: 0;
+  }
   
+  /* Create a container for the text and black overlay */
+  .overlay-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Apply the black overlay with transparency */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.522); /* Adjust the last value for transparency */
+  }
+  
+.md_button{
+    color: black;
+    border-radius: 24px;
+    border-color: bisque;
+}
+
+.form_style{
+    border-radius: 24px;
+    width: auto;
+    height: auto;
+}
+.form_style_sub{
+    margin-top: 2%;
+   
+}
+
+
+.foot{
+    text-align: center;
+    padding: 25px;
+}
+.credit{
+    font-size: smaller;
+}
