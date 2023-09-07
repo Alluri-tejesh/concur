@@ -185,8 +185,8 @@
 
     .nav_style{
         border-radius: 24px;
-        border-bottom:  solid 2px #142482;
-       
+        
+       background-color: #142482;
         color: #fafafa;
         padding: 10px;
         width: 150px;
@@ -194,16 +194,11 @@
         margin-top: 25%;
         text-decoration: none;
     }
-    .nav_style:hover{
-        background-color: #142482;
-       
-        }
-        .nav_stkye_a:hover{
-            color: #ffffff;
-        }
+
+
     .nav_stkye_a{
         text-decoration: none;
-        color: #142482;
+        color: #ffffff;
     }
 
 
